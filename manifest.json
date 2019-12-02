@@ -1,0 +1,22 @@
+{
+  "name": "Football Info",
+    "gcm_sender_id": "405861049850",
+    "short_name": "Football Info",
+    "description": "Aplikasi Info sepak bola Menggunakan PWA",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#8A2BE2",
+    "theme_color": "#8A2BE2",
+    "icons": [
+        {
+            "src": "assets/soccer-ball192px.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/soccer-ball512px.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

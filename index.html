@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="/assets/soccer-ball192px.png">
+    <meta name="theme-color" content="#8A2BE2">
+    <title>Football Info</title>
+</head>
+
+<body>
+
+    <nav class="purple " role="navigation">
+        <div class="nav-warpper container">
+            <a href="index.html" class="brand-logo" id="logo-container">Football Info</a>
+            <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+
+
+    <div class="container" id="body-content"></div>
+
+    <footer class="page-footer">
+        <p>© <script>
+                document.write(new Date().getFullYear())
+            </script> Copyright Deny Trisakti</p>
+    </footer>
+    <script type="text/javascript" src="https://unpkg.com/snarkdown@1.0.2/dist/snarkdown.umd.js"></script>
+    <script src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/idb.js"></script>
+    <script src ="js/call-service-worker.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/navigation.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            getCompetitions();
+        });
+    </script>
+</body>
+</html>
