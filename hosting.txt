@@ -1,0 +1,2 @@
+Hosting URL: https://newpwafootballfix.firebaseapp.com
+GitHub URL : https://github.com/D-trisakti/submision3.git
